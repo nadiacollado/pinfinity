@@ -1,11 +1,24 @@
 import logo from './logo.svg';
-import './App.css';
+// import './App.css';
+import './'
+import pins from './pins.json'
 
 function App() {
+  console.log(pins)
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <div>
+        {pins ? pins.map((pin) => (
+            <div key={pin.id}>
+              <img className="pin-image"
+                src={pin.images.orig.url}
+                alt="pin"
+              ></img>
+              {pin.description}
+            </div>
+          )) : null}
+        </div>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>

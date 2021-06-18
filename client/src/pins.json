@@ -1,4 +1,4 @@
-const pins = [
+[
     {
         "access": [],
         "additional_hide_reasons": [],
