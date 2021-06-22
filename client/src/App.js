@@ -31,10 +31,13 @@ function App() {
   return (
     
     <div className="App">
-      <header className="App-header">
-        <p> PINFINITY </p>
+      <div className="App-header">
+        <h3> Pinfinity </h3>
+        <p>Scroll to your hearts desire</p>
+        </div>
+        <div className="pins">
           {pins}
-      </header>
+        </div>
     </div>
   );
 }
