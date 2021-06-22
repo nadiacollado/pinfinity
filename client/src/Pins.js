@@ -1,12 +1,11 @@
-import './'
-import pins from './pins.json'
+// import './'
 
-function Pins() {
-  return (
-    <div className="Pins">
-        {pins.id}
-    </div>
-  );
-}
+// function Pins() {
+//   return (
+//     <div className="Pins">
+//         {pins.id}
+//     </div>
+//   );
+// }
 
-export default Pins;
+// export default Pins;
