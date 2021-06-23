@@ -1,6 +1,7 @@
 import './'
 import { useState, useEffect, useRef } from 'react'
 import getPins from './getPins'
+import Pins from './Pins'
 import "./App.css"
 
 function App() {
@@ -36,10 +37,10 @@ function App() {
         <p>Scroll to your hearts desire</p>
         </div>
         <div className="pins">
-          {pins}
+          <Pins pins={pins}/>
         </div>
     </div>
-  );
+  )
 }
 
 export default App;
