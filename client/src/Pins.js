@@ -2,6 +2,7 @@ import './'
 import { Container } from '@material-ui/core'
 import Masonry from 'react-masonry-css'
 import "./App.css"
+import CallMadeIcon from '@material-ui/icons/CallMade'
 
 function Pins(props) {
     const { pins } = props
@@ -23,13 +24,13 @@ function Pins(props) {
                 {pins.map(p => {
                     console.log(p)
                     return<div className='pin' key={p.id}>
-                        <img className='image'
+                        <img
                         src={p.images.orig.url} 
-                        alt='cat-pins'
+                        alt={p.description}
                         >
                         </img>
                         <a className='save-button'>Save</a>
-                        <a className='visit-link' href={p.link}>Visit Me</a> 
+                        <a className='visit-link' href={p.link}><CallMadeIcon fontSize='small'/></a> 
                         </div>
                     })}
             </Masonry>

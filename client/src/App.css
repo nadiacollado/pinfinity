@@ -26,7 +26,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-size: calc(40px + 2vmin);
+  font-size: calc(30px + 2vmin);
   color: black;
   padding: 20px;
 }
@@ -41,6 +41,14 @@
   font-size: 18px;
   margin-top: 60px;
   margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: black;
 }
 
 .pin {
@@ -68,14 +76,28 @@
 }
 
 .visit-link {
+  display: none;
   font-size: 10px;
+  font-size: calc(5px + 2vmin);
   float: left;
-  position: relative;
-  bottom: 15px;
-  background-color: pink;
+  left: 10px;
+  bottom: 45px;
+  background-color: white;
   padding: 2%;
-  width: max-content;
-  filter:brightness(120%);
+  height: 25px;
+  text-align: center;
+  border-radius: 65%;
+  opacity: .7;
+}
+
+.pin:hover .visit-link { 
+  display: block;
+  position: absolute;
+  text-align: center;
+  bottom: 10px;
+  left: 5;
+  right: 0;
+  width: 13%;
 }
 
 .pin:hover .save-button { 
@@ -94,7 +116,12 @@
 }
 
 .save-button:hover {
-  filter:brightness(95%);
+  filter:brightness(110%);
+}
+
+.visit-link:hover {
+  filter:brightness(125%);
+  opacity: 1;
 }
 
 .pin img {
