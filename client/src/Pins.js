@@ -20,12 +20,15 @@ function Pins(props) {
             columnClassName="my-masonry-grid_column"
             >
                 {pins.map(p => {
+                    console.log(p)
                     return<div className='pin' key={p.id}>
                         <img 
                         src={p.images.orig.url} 
                         alt='cat-pins'
                         >
                         </img>
+                        <a className='save-button'>Save</a>
+                        <a className='link' href={p.link}>Visit Me</a> 
                         </div>
                     })}
             </Masonry>

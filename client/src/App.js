@@ -34,8 +34,7 @@ function App() {
   return (
     <div className="App">
       <div className="App-header">
-        <h3> Pinfinity </h3>
-        <p>Scroll to your hearts desire</p>
+        <h3>P  I  N  F  I  N  I  T  Y</h3> 
         </div>
         <div className="pins">
           <Pins pins={pins}/>
