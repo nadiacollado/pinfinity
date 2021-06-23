@@ -10,6 +10,7 @@ function App() {
   const loadedRowCount = 10
   let isLoading = useRef(false)
 
+  // calls for new pins everytime state (startingRow) is updated
   useEffect(() => {
       const fetchPins = () => {
         const newPins = getPins(startingRow, startingRow + loadedRowCount)
@@ -19,9 +20,10 @@ function App() {
       isLoading = false
   }, [startingRow])
 
+  // checks if the user has reached the bottom of the page
+  // if so, increases startingRow by 10
   const handleScroll = () => {
     if (!isLoading && window.document.body.offsetHeight <= window.pageYOffset + window.innerHeight){
-      console.log('reached the bottom')
       isLoading = true
       setStartingRow(prev => prev + 10)
     }
@@ -30,7 +32,6 @@ function App() {
   window.addEventListener('scroll', handleScroll)
 
   return (
-    
     <div className="App">
       <div className="App-header">
         <h3> Pinfinity </h3>
