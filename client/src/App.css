@@ -4,19 +4,20 @@
  
 .App {
   text-align: center;
-  display: flex;
 } 
 
 .my-masonry-grid {
   display: -webkit-box; 
   display: -ms-flexbox;
   display: flex;
-  width: auto;
+  padding: 0px 25px 0px 25px;
+  /* width: auto; */
 }
 
 .my-masonry-grid_column {
-  padding-left: 30px;
+  /* padding-left: 30px; */
   background-clip: padding-box;
+  max-width: 60vw;
 }
 
 .App-header {
@@ -27,7 +28,7 @@
   justify-content: space-between;
   font-size: calc(40px + 2vmin);
   color: black;
-  padding: 40px;
+  padding: 20px;
 }
 
 .App-header h3 {
@@ -43,8 +44,10 @@
 }
 
 .pin {
-  width:'200px';
-  height:'300px';
+  /* width:'200px';
+  height:'300px'; */
+  min-width: 20vw;
+  height: auto;
   overflow: hidden;
   position: relative;
   display: inline-block;
@@ -64,9 +67,15 @@
   margin-right: 10px;
 }
 
-.link {
+.visit-link {
   font-size: 10px;
-
+  float: left;
+  position: relative;
+  bottom: 15px;
+  background-color: pink;
+  padding: 2%;
+  width: max-content;
+  filter:brightness(120%);
 }
 
 .pin:hover .save-button { 
@@ -79,19 +88,26 @@
   width: 25%;
 }
 
-.pin img {
-  display: block;
-}
-
 .pin:hover img {
   background-color:rgba(0, 0, 0, 0.5);
+  filter:brightness(50%);
+}
+
+.save-button:hover {
+  filter:brightness(95%);
 }
 
 .pin img {
+  display: block;
   height: auto;
-  width: 300px;
+  max-width: 235px;
+  min-width: 10vw;
   border-radius: 25px;
  }
+
+ /* .image{
+   width: 95%;
+ } */
 
 .pins {
   font-family: 'Montserrat Alternates', sans-serif;

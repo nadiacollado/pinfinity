@@ -7,9 +7,10 @@ function Pins(props) {
     const { pins } = props
 
     const breakPoints = {
-        default: 3,
-        1100: 2,
-        700: 1
+        default: 4,
+        1100: 3,
+        700: 2,
+        500: 1
     }
 
     return (
@@ -22,13 +23,13 @@ function Pins(props) {
                 {pins.map(p => {
                     console.log(p)
                     return<div className='pin' key={p.id}>
-                        <img 
+                        <img className='image'
                         src={p.images.orig.url} 
                         alt='cat-pins'
                         >
                         </img>
                         <a className='save-button'>Save</a>
-                        <a className='link' href={p.link}>Visit Me</a> 
+                        <a className='visit-link' href={p.link}>Visit Me</a> 
                         </div>
                     })}
             </Masonry>
