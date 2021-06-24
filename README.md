@@ -5,7 +5,7 @@ An implementation of Infinite Scrolling using React Hooks
 
 To check out Pinfinity, you need to have [Git](https://git-scm.com/), [Node, and NPM](https://nodejs.org/en/) installed on your development machine. 
 
-### Instructions
+### 🏁Instructions
 
 Open your terminal, create a directory with a name of your choosing, and clone this repository into your new directory.
 
@@ -31,9 +31,9 @@ From this project, I primarily learned the distinction between the useState and 
 
 
 ### 🧘🏻‍Stretch goals
-Tests! (Unit & integration)/
-Routing to includes a unique Pin component for each pin/
-Set up a database and login/user capibilities to enable the "save" pin functionality/
+Tests! (Unit & integration)\
+Routing to includes a unique Pin component for each pin\
+Set up a database and login/user capibilities to enable the "save" pin functionality\
 Add search bar functionality 
 
 ### Dependencies
