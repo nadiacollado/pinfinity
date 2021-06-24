@@ -3,7 +3,7 @@ An implementation of Infinite Scrolling using React Hooks
 
 ### System Requirements
 
-To check out Pinfinity, you need to have [Git](https://git-scm.com/), [Node, and NPM](https://nodejs.org/en/) installed on your development machine. 
+To check out Pinfinity, you need to have [Git](https://git-scm.com/) and [NPM](https://nodejs.org/en/) installed on your development machine. 
 
 ### 🏁 Instructions
 
