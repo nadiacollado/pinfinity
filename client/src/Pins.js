@@ -5,7 +5,6 @@ import { Container } from '@material-ui/core'
 import Masonry from 'react-masonry-css'
 
 
-
 function Pins(props) {
     const { pins } = props
 
@@ -20,8 +19,8 @@ function Pins(props) {
         <Container>
             <Masonry
             breakpointCols={breakPoints}
-            className="my-masonry-grid"
-            columnClassName="my-masonry-grid_column"
+            className='my-masonry-grid'
+            columnClassName='my-masonry-grid_column'
             >
                 {pins.map(p => {
                     console.log(p)

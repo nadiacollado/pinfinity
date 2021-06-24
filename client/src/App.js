@@ -57,7 +57,7 @@ function App() {
                 root: classes.inputRoot,
                 input: classes.inputInput,
               }}
-              inputProps={{ 'aria-label': 'search' }}
+              inputProps={{ 'arial-label': 'search' }}
             />
         </div>
           <IconButton color='inherit'>
