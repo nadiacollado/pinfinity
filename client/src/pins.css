@@ -79,9 +79,9 @@
 }
 
 .save-button:hover {
-    filter:brightness(95%);
-    background-color:rgb(35, 194, 14);
-    color: black;
+    filter:brightness(115%);
+    background-color:rgb(255, 145, 0);
+    color: white;
 }
 
 .visit-link:hover {
