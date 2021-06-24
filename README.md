@@ -31,9 +31,9 @@ From this project, I primarily learned the distinction between the useState and 
 
 
 ### 🧘🏻‍Stretch goals
-Tests! (Unit & integration)
-Routing to includes a unique Pin component for each pin 
-Set up a database and login/user capibilities to enable the "save" pin functionality 
+Tests! (Unit & integration)/
+Routing to includes a unique Pin component for each pin/
+Set up a database and login/user capibilities to enable the "save" pin functionality/
 Add search bar functionality 
 
 ### Dependencies
