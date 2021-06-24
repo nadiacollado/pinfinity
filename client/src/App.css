@@ -1,24 +1,10 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,300&display=swap');
- 
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700&display=swap');
+
 .App {
   text-align: center;
 } 
-
-.my-masonry-grid {
-  display: -webkit-box; 
-  display: -ms-flexbox;
-  display: flex;
-  padding: 0px 25px 0px 25px;
-  /* width: auto; */
-}
-
-.my-masonry-grid_column {
-  /* padding-left: 30px; */
-  background-clip: padding-box;
-  max-width: 60vw;
-}
 
 .App-header {
   font-family: 'Montserrat Alternates', sans-serif;
@@ -28,7 +14,7 @@
   justify-content: space-between;
   font-size: calc(30px + 2vmin);
   color: black;
-  padding: 20px;
+  padding: 0px;
 }
 
 .App-header h3 {
@@ -51,99 +37,10 @@ a:link, a:visited {
   color: black;
 }
 
-.pin {
-  /* width:'200px';
-  height:'300px'; */
-  min-width: 20vw;
-  height: auto;
-  overflow: hidden;
-  position: relative;
-  display: inline-block;
-  text-align: center;
-}
-
-.save-button {
-  display: none;
-  color: white;
-  font-size: calc(5px + 2vmin);
-  background-color: #2ECC40;
-  font-family: 'Montserrat Alternates', sans-serif;
-  width: 10px;
-  height: 50px;
-  line-height: 50px;
-  border-radius: 45%;
-  margin-right: 10px;
-}
-
-.visit-link {
-  display: none;
-  font-size: 10px;
-  font-size: calc(5px + 2vmin);
-  float: left;
-  left: 10px;
-  bottom: 45px;
-  background-color: white;
-  padding: 2%;
-  height: 25px;
-  text-align: center;
-  border-radius: 65%;
-  opacity: .7;
-}
-
-.pin:hover .visit-link { 
-  display: block;
-  position: absolute;
-  text-align: center;
-  bottom: 10px;
-  left: 5;
-  right: 0;
-  width: 13%;
-}
-
-.pin:hover .save-button { 
-  display: block;
-  position: absolute;
-  text-align: center;
-  left: 5;
-  right: 0;
-  top: 10px;
-  width: 25%;
-}
-
-.pin:hover img {
-  background-color:rgba(0, 0, 0, 0.5);
-  filter:brightness(50%);
-}
-
-.save-button:hover {
-  filter:brightness(110%);
-}
-
-.visit-link:hover {
-  filter:brightness(125%);
-  opacity: 1;
-}
-
-.pin img {
-  display: block;
-  height: auto;
-  max-width: 235px;
-  min-width: 10vw;
-  border-radius: 25px;
- }
-
- /* .image{
-   width: 95%;
- } */
-
 .pins {
   font-family: 'Montserrat Alternates', sans-serif;
   display: flex;
   justify-content: space-around;
   font-size: calc(50px + 2vmin);
   color: yellow;
-}
-
-.App-link {
-  color: #61dafb;
 }

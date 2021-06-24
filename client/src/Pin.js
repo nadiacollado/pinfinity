@@ -1,1 +1,1 @@
-// for each indivial pin
+// Single Pin component for a future addition of routes via react-router-dom

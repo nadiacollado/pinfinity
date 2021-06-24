@@ -1,8 +1,10 @@
 import './'
+import './pins.css'
+import CallMadeIcon from '@material-ui/icons/CallMade'
 import { Container } from '@material-ui/core'
 import Masonry from 'react-masonry-css'
-import "./App.css"
-import CallMadeIcon from '@material-ui/icons/CallMade'
+
+
 
 function Pins(props) {
     const { pins } = props
@@ -38,4 +40,4 @@ function Pins(props) {
     )
 }
 
-export default Pins;
+export default Pins
