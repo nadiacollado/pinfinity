@@ -25,6 +25,17 @@ The page will reload if you make edits. You will also see lint errors in the con
 
 ```npm start```
 
+### 🙋🏻‍Things I learned
+
+From this project, I primarily learned the distinction between the useState and useRef hooks. I'd originally set up my project where I was intializing all of my data via useState and then tracking it with useEffect. However, useState was causing multiple renders within my event handler and setting various pages of pins at a time when it should only set one. I decided to use the useRef hook for loading data as changes to useRef do not trigger re-renders.
+
+
+### 🧘🏻‍Stretch goals
+Tests! (Unit & integration)
+Routing to includes a unique Pin component for each pin 
+Set up a database and login/user capibilities to enable the "save" pin functionality 
+Add search bar functionality 
+
 ### Dependencies
 
 [React](https://reactjs.org/)
